@@ -128,7 +128,7 @@ def _visualize_graph_via_networkx(
         )
 
     nodes = nx.draw_networkx_nodes(g, pos, node_size=node_size,
-                                   node_color='white', margins=0.1)
+                                   node_color='white')
     nodes.set_edgecolor('black')
     nx.draw_networkx_labels(g, pos, font_size=10)
 
